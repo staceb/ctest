@@ -11,5 +11,4 @@ action "echo" {
 action "Tag Filter" {
   uses = "actions/bin/filter@0540803"
   runs = "tag"
-  secrets = ["FRANCISFUZZ"]
 }
