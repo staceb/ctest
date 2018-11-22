@@ -1,6 +1,6 @@
 workflow "New workflow" {
   on = "push"
-  resolves = ["echo", "Tag Filter"]
+  resolves = ["echo"]
 }
 
 action "echo" {
