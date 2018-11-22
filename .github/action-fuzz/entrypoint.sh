@@ -2,5 +2,5 @@
 
 sh -c "echo $*";
 
-git grep it grep -e create --and -e pull --and -e repository;
+git grep -e create --and -e pull --and -e repository;
 
