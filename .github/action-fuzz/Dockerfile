@@ -10,7 +10,8 @@ LABEL "repository"="http://github.com/runleonarun/hello-fuzz"
 LABEL "homepage"="http://github.com/actions"
 LABEL "maintainer"="Octocat <octocat@github.com>"
 
-RUN apt-get install -y git man
+# install git
+RUN apt-get -y update && apt-get -y install git
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
