@@ -10,7 +10,7 @@ action "echo" {
 }
 
 action "2nd echo" {
-  uses = "./.github/action-fuzz"
+  uses = "./.github/action-fuzz2"
   args = "Hello again"
  
 }
