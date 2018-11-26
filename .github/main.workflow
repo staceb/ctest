@@ -14,3 +14,10 @@ LD_LOG_LEVEL = "DEBUG"
 
 }
 
+action "Npm build" {
+uses = "actions/npm@master"
+needs = ["Npm install"]
+args = "run build"
+}
+
+
