@@ -6,18 +6,13 @@ workflow "New workflow" {
 action "echo" {
   uses = "./.github/action-fuzz"
   args = "Hello mister Reggie"
-  env = {
-LD_PROJ_KEY = "default"
-LD_CONTEXT_LINE = "1"
-LD_LOG_LEVEL = "DEBUG"
+ 
 }
 
-}
-
-action "Npm build" {
-uses = "actions/npm@master"
-needs = ["Npm install"]
-args = "run build"
+action "echo" {
+  uses = "./.github/action-fuzz"
+  args = "Hello again"
+ 
 }
 
 
