@@ -9,7 +9,7 @@ action "echo" {
  
 }
 
-action "echo" {
+action "2nd echo" {
   uses = "./.github/action-fuzz"
   args = "Hello again"
  
