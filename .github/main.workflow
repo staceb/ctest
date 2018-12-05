@@ -1,12 +1,8 @@
 workflow "New workflow" {
   on = "push"
-  resolves = ["echo"]
+  resolves = ["2nd echo"]
 }
 
-action "echo" {
-  uses = "./.github/action-fuzz"
-  args = "Hello mister Reggie"
- 
 }
 
 action "2nd echo" {
