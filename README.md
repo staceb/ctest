@@ -64,4 +64,4 @@ action "echo" {
 
 Once that's done, open a pull request against this branch and observe the new workflow in action by navigating to the Actions tab to see your new action run!
 
-Merge this in and happy coding!
+Merge this in and happy coding! --
